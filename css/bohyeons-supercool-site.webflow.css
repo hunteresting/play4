@@ -495,9 +495,9 @@ li {
   max-height: 350px;
   max-width: 450px;
   margin: 190px -1px -4px -8px;
-  background-image: url('../images/그림8.jpg');
+  background-image: url('../images/그림1.png');
   background-position: 0px 0px;
-  background-size: auto;
+  background-size: cover;
 }
 
 .main-paragraph._40 {
@@ -686,24 +686,25 @@ li {
 .wrapper-video.first {
   background-image: url('../images/roblox-games-wallpaper.webp');
   background-position: 50% 50%;
+  background-size: cover;
 }
 
 .wrapper-video.second {
-  background-image: url('../images/shirt1.png');
+  background-image: url('../images/optimize.jpg');
   background-position: 50% 50%;
   background-size: 300px 550px;
 }
 
 .wrapper-video.third {
-  background-image: url('../images/sshot_2022_7_20_9_51_25.png');
-  background-position: 45% 50%;
-  background-size: 850px;
+  background-image: url('../images/EPACF3MEJFDAFMOKQIXAS2AZSI.webp');
+  background-position: 40% 50%;
+  background-size: cover;
 }
 
 .wrapper-video.fourth {
-  background-image: url('../images/렌더샷.png');
+  background-image: url('../images/20220422_6262bf492628a.webp');
   background-position: 50% 100%;
-  background-size: 700px 100%;
+  background-size: cover;
 }
 
 .background-video-hero {
@@ -1736,6 +1737,7 @@ li {
 }
 
 .play-container.second {
+  display: block;
   background-image: url('../images/전체-맵.jpeg');
   background-position: 20% 30%;
   -webkit-transition: all 400ms ease-in-out;
@@ -1743,9 +1745,9 @@ li {
 }
 
 .play-container.third {
+  display: block;
   background-image: url('../images/discord.png');
   background-position: 50% 20%;
-  background-size: 500px 650px;
 }
 
 .play-container.fourth {
@@ -1765,19 +1767,25 @@ li {
 }
 
 .play-container.sixth {
-  background-image: url('../images/그림7.jpg');
+  background-image: url('../images/hiworks_20220720_3964.png');
 }
 
 .play-container.seventh {
-  background-image: url('../images/그림5.png');
+  background-image: url('../images/hiworks_20220720_8386.png');
 }
 
 .play-container.eighth {
-  background-image: url('../images/8.jpg');
+  background-image: url('../images/그림11.png');
 }
 
 .play-container.ninth {
-  background-image: url('../images/9.jpg');
+  background-image: url('../images/그림6.png');
+}
+
+.play-container.first {
+  display: block;
+  background-image: url('../images/12.jpg');
+  background-position: 65% 40%;
 }
 
 .image-background {
@@ -4012,10 +4020,12 @@ li {
   .main-paragraph._50.image-card {
     right: 33%;
     width: 40%;
+    max-height: 400px;
+    max-width: 500px;
     margin-right: 96px;
-    background-image: url('../images/그림8.jpg');
+    background-image: url('../images/그림1.png');
     background-position: 0px 0px;
-    background-size: auto;
+    background-size: cover;
   }
 
   .main-paragraph._40 {
@@ -4332,20 +4342,22 @@ li {
   }
 
   .play-container {
-    background-image: url('../images/그림1.png');
+    background-image: url('../images/그림1_1.png');
   }
 
   .play-container.second {
-    background-image: url('../images/내부_7.PNG');
+    display: block;
+    background-image: url('../images/전체-맵.jpeg');
     background-position: 50% 50%;
   }
 
   .play-container.third {
-    background-image: url('../images/그림10_1.png');
+    display: block;
+    background-image: url('../images/discord.png');
   }
 
   .play-container.fourth {
-    background-image: url('../images/그림12.png');
+    background-image: url('../images/hiworks_20220720_8359.png');
   }
 
   .play-container.fifth {
@@ -4355,11 +4367,13 @@ li {
   }
 
   .play-container.sixth {
-    background-image: url('../images/그림7.jpg');
+    background-image: url('../images/hiworks_20220720_3964.png');
+    background-position: 100% 50%;
+    background-size: cover;
   }
 
   .play-container.seventh {
-    background-image: url('../images/그림5.png');
+    background-image: url('../images/hiworks_20220720_8386.png');
   }
 
   .play-container.eighth {
@@ -4367,13 +4381,15 @@ li {
   }
 
   .play-container.ninth {
-    background-image: url('../images/그림13.png');
-    background-position: 0% 50%;
+    background-image: url('../images/그림6.png');
+    background-position: 40% 50%;
   }
 
   .play-container.first {
-    background-image: url('../images/그림14.jpg');
-    background-position: 90% 50%;
+    display: block;
+    background-image: url('../images/12_1.png');
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .image-background {
@@ -4752,7 +4768,7 @@ li {
     position: fixed;
     left: auto;
     top: 13%;
-    right: 3.2%;
+    right: 2.5%;
     bottom: auto;
     margin-left: 0px;
     padding-left: 0px;
@@ -4776,7 +4792,7 @@ li {
     position: fixed;
     left: auto;
     top: 21%;
-    right: 3%;
+    right: 2.5%;
     bottom: auto;
     padding-left: 0px;
     clear: none;
@@ -4798,6 +4814,10 @@ li {
 
   .main-heading.description.cases.black-color {
     font-size: 50px;
+  }
+
+  .main-heading.about {
+    font-size: 11vw;
   }
 
   .main-heading.about-heading.first {
@@ -4836,6 +4856,7 @@ li {
   .main-paragraph._50.absolute {
     position: static;
     width: 100%;
+    margin-top: 58px;
     font-size: 18px;
   }
 
@@ -4984,6 +5005,7 @@ li {
   }
 
   .wrapper-about-image {
+    display: none;
     padding-right: 3px;
     padding-bottom: 154px;
     padding-left: 0px;
